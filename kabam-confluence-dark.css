@@ -1,0 +1,918 @@
+body,
+#page #full-height-container {
+  background-color: #FFFFFF;
+}
+
+#header .aui-header {
+  padding: 0;
+  border: none;
+}
+
+
+/* Logo */
+
+#header #logo,
+#header #logo a {
+  width: 126px;
+  height: 32px;
+}
+
+#header #logo {
+  margin: 13px 0 0 33px;
+  background-size: cover;
+  background-image: url('https://wiki.kabaminc.com/download/attachments/46996780/kabam-primary-logo-cmyk-rev-horizontal.svg?api=v2')
+}
+
+#header #logo a:hover {
+  background: none !important;
+}
+
+#header #logo a img {
+  display: none;
+}
+
+
+/* Header navigation Spaces / People / Create */
+
+#header .aui-header-primary .aui-nav {
+  margin: 3px 0 0 136px
+}
+
+#header .aui-header-primary .aui-nav a {
+  color: #ffffff !important;
+  font-size: 16px;
+  line-height: 1.5;
+}
+
+#header .aui-nav #space-menu-link {
+  padding-right: 34px !important;
+  margin-right: 12px;
+}
+
+#header .aui-nav #space-menu-link.active,
+#header .aui-nav #space-menu-link:active {
+  background: #151c2f;
+}
+
+#header .aui-nav #quick-create-page-button {
+  border-top-left-radius: 17px;
+  border-bottom-left-radius: 17px;
+  background: #151c2f;
+  border: 1px solid #3b434a;
+  font-weight: normal;
+  height: auto;
+  padding: 5px 20px 5px 18px;
+}
+
+#header .aui-nav #create-page-button {
+  border-top-right-radius: 17px;
+  border-bottom-right-radius: 17px;
+  background: #151c2f;
+  border: 1px solid #3b434a;
+  font-weight: normal;
+  margin-left: -1px;
+  height: auto;
+  padding: 5px 15px;
+}
+
+
+/* Header navigation Search / Help / Inbox / User */
+
+#header .aui-header-secondary .aui-nav {
+  margin: 8px 30px 0 0;
+}
+
+#header .aui-nav #people-directory-link {
+  margin-right: 12px;
+}
+
+#header .aui-nav #people-directory-link.active,
+#header .aui-nav #people-directory-link:active {
+  background: #151c2f;
+}
+
+
+/* Left sidebar */
+
+.ia-splitter-left,
+.ia-fixed-sidebar {
+  width: 260px !important;
+  position: fixed !important;
+  top: 58px !important;
+  bottom: 0;
+  background-color: #252b3a;
+  font-family: "proxima-nova";
+  font-size: 16px;
+  line-height: 1.5;
+}
+
+
+/* Left sidebar scrollbar */
+
+.ia-scrollable-section::-webkit-scrollbar-thumb:hover {
+  background: #ffa677;
+}
+
+.ia-scrollable-section::-webkit-scrollbar-thumb {
+  background: #f36a22;
+}
+
+.ia-scrollable-section::-webkit-scrollbar {
+  width: 3px;
+}
+
+
+/* Left sidebar drag handle (hidden now) */
+
+.ia-splitter-handle,
+.expand-collapse-trigger {
+  display: none;
+}
+
+.ia-splitter-left .acs-side-bar {
+  background-color: transparent;
+}
+
+.ia-splitter-left .ia-secondary-container {
+  margin: 0;
+}
+
+
+/* Side bar link typography  */
+
+.ia-fixed-sidebar a {
+  color: #ffffff;
+  text-decoration: none;
+  white-space: normal !important;
+  font-weight: 300;
+}
+
+.ia-fixed-sidebar a:hover,
+.ia-fixed-sidebar a:active {
+  color: #828990;
+  background-color: transparent !important;
+  text-decoration: none;
+}
+
+.ia-fixed-sidebar .acs-nav-item.current-item a,
+.ia-fixed-sidebar .plugin_pagetree_current a {
+  color: #f36a22 !important;
+  font-weight: 300 !important;
+}
+
+
+/* Avatar section */
+
+.acs-side-bar-space-info {
+  margin: 40px 0;
+}
+
+.acs-side-bar-space-info .avatar {
+  padding-left: 34px !important;
+  padding-right: 18px !important;
+}
+
+.acs-side-bar-space-info .avatar .avatar-img-wrapper {
+  border: none;
+}
+
+.acs-side-bar-space-info .avatar img {
+  height: 50px;
+  width: 50px;
+  max-width: none !important;
+  max-height: none !important;
+}
+
+.acs-side-bar-space-info .name {
+  float: left;
+  max-width: 112px !important;
+}
+
+.acs-side-bar-space-info .name a {
+  font-size: 24px;
+  line-height: 1.5;
+  color: #FFFFFF;
+}
+
+.acs-side-bar-space-info .name a:hover,
+.acs-side-bar-space-info .name a:active {
+  text-decoration: none;
+}
+
+.acs-side-bar-space-info .favourite-space-icon {
+  margin-top: -21px;
+  position: relative;
+  margin-right: 10px;
+  margin-left: 25px;
+  float: left;
+}
+
+.acs-side-bar-space-info .favourite-space-icon button.aui-iconfont-star::before,
+.acs-side-bar-space-info .favourite-space-icon button.aui-iconfont-unstar::before {
+  font-family: "Font Awesome 5 Free";
+  color: #FFF;
+}
+
+.acs-side-bar-space-info .favourite-space-icon button.aui-iconfont-star::before {
+  content: '\f005';
+  font-weight: 900;
+}
+
+.acs-side-bar-space-info .favourite-space-icon button.aui-iconfont-unstar::before {
+  content: '\f005';
+  font-weight: 400;
+}
+
+
+/* Main links / Quick Links */
+
+.acs-nav-wrapper .acs-nav {
+  margin: 0;
+}
+
+.quick-links-wrapper .ia-quick-links-header-title {
+  display: none !important;
+}
+
+ul.acs-nav-list>li {
+  padding: 0 12px 16px 12px;
+}
+
+ul.acs-nav-list>li a {
+  padding: 0 !important;
+  margin: 0;
+  display: flex !important;
+  flex-direction: row;
+}
+
+ul.acs-nav-list>li a .icon {
+  width: 16px;
+  height: 20px;
+  margin-right: 5px;
+  position: static;
+  top: auto;
+  left: auto;
+  float: left;
+}
+
+ul.acs-nav-list>li a .acs-nav-item-label {
+  margin: 0;
+  white-space: normal;
+  float: left;
+  flex-grow: 1;
+}
+
+.main-links-section .acs-nav-item .acs-nav-item-link .icon:before,
+.quick-links-wrapper .acs-nav-item .acs-nav-item-link .icon:before {
+  font-family: "Font Awesome 5 Free";
+  font-weight: 900;
+  font-size: 16px;
+  color: #FFFFFF;
+}
+
+.quick-links-wrapper .acs-nav-item.external_link .acs-nav-item-link .icon {
+  background: none;
+}
+
+.main-links-section .acs-nav-item.profile .acs-nav-item-link .icon:before {
+  content: '\f007';
+}
+
+.main-links-section .acs-nav-item.wiki .acs-nav-item-link .icon:before {
+  content: '\f0c5';
+}
+
+.main-links-section .acs-nav-item.blog .acs-nav-item-link .icon:before {
+  content: '\f09e';
+}
+
+
+/* Page tree navigation */
+
+.ia-fixed-sidebar .plugin_pagetree {
+  /* strange negative margin on it */
+  margin-top: 0 !important;
+}
+
+.ia-fixed-sidebar ul.plugin_pagetree_children_list .plugin_pagetree_children_span {
+  padding: 0 !important;
+}
+
+.ia-fixed-sidebar ul.plugin_pagetree_children_list>div>ul.plugin_pagetree_children_list {
+  padding: 0;
+  margin: 0;
+}
+
+
+/* icon container for toggle  */
+
+.ia-fixed-sidebar ul.plugin_pagetree_children_list>li>.plugin_pagetree_childtoggle_container {
+  width: 16px !important;
+  height: 20px !important;
+  margin-right: 5px;
+  margin-left: 12px;
+  float: left;
+}
+
+
+/* terrible fix for width of label depth of 1 */
+
+.ia-fixed-sidebar ul.plugin_pagetree_children_list ul.plugin_pagetree_children_list>li .plugin_pagetree_children_content {
+  width: 216px;
+  overflow: hidden;
+}
+
+
+/* Second level nav tree */
+
+.ia-fixed-sidebar ul.plugin_pagetree_children_list ul.plugin_pagetree_children_list ul.plugin_pagetree_children_list {
+  padding: 25px 0 6px 29px;
+  background-color: #151c2f;
+  margin-bottom: 18px
+}
+
+
+/* Third level nav tree */
+
+.ia-fixed-sidebar ul.plugin_pagetree_children_list ul.plugin_pagetree_children_list ul.plugin_pagetree_children_list ul.plugin_pagetree_children_list {
+  background-color: #0d111d;
+  padding: 18px 0 15px 0;
+  font-size: 14px;
+  margin-top: 12px;
+}
+
+
+/* terrible fix for width of label depth of 2 and 3 */
+
+.ia-fixed-sidebar ul.plugin_pagetree_children_list ul.plugin_pagetree_children_list ul.plugin_pagetree_children_list>li .plugin_pagetree_children_content {
+  width: 183px;
+}
+
+
+/* navigation links */
+/* TODO move to the rest of sidebar link typography */
+.ia-fixed-sidebar ul.plugin_pagetree_children_list ul.plugin_pagetree_children_list>li .plugin_pagetree_children_content a {
+  float: left;
+  padding: 0 12px 16px 0 !important;
+}
+
+.ia-splitter-left .ia-secondary-container .ia-secondary-header {
+  display: none;
+}
+
+.ia-splitter-left .ia-secondary-container .ia-secondary-content {
+  margin: 0;
+}
+
+.ia-splitter-left .ia-secondary-container .ia-secondary-content .no-children {
+  display: none;
+}
+
+.ia-splitter-left .ia-secondary-container .ia-secondary-content .icon-section-closed,
+.ia-splitter-left .ia-secondary-container .ia-secondary-content .icon-section-opened {
+  background: none;
+  top: 7px;
+  text-decoration: none;
+}
+
+.ia-splitter-left .ia-secondary-container .ia-secondary-content .icon-section-closed:before {
+  font-family: "Font Awesome 5 Free";
+  content: '\f0da';
+  font-weight: 900;
+  font-size: 16px;
+}
+
+.ia-splitter-left .ia-secondary-container .ia-secondary-content .icon-section-opened:before {
+  font-family: "Font Awesome 5 Free";
+  content: '\f0d7';
+  font-weight: 900;
+  font-size: 16px;
+}
+
+
+/* Spaces Admin Button */
+
+.ia-splitter-left .space-tools-section {
+  border: none;
+  background-color: #0d111d;
+  border-top: 1px solid #2a3044;
+}
+
+.ia-splitter-left .space-tools-section #space-tools-menu-trigger {
+  margin: 0;
+  width: 100%;
+  border-radius: 0;
+  background: #0d111d;
+  border: none;
+  color: #707070;
+  padding: 10px 12px;
+  height: auto;
+  text-align: left;
+}
+
+.ia-splitter-left .space-tools-section #space-tools-menu-trigger:focus,
+.ia-splitter-left .space-tools-section #space-tools-menu-trigger:hover,
+.ia-splitter-left .space-tools-section #space-tools-menu-trigger.active {
+  background: #292f35;
+  outline-style: none !important;
+}
+
+.ia-splitter-left .space-tools-section #space-tools-menu-trigger:after {
+  display: none;
+}
+
+#header {
+  font-family: "proxima-nova";
+  position: fixed !important;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 1000 !important;
+}
+
+#header .aui-header {
+  background: #151c2f;
+  height: 58px;
+}
+
+#header .aui-header-before {
+  display: none;
+}
+
+#header #quick-search-query {
+  border-radius: 70px !important;
+}
+
+#header .aui-header-secondary #help-menu-link,
+#header .aui-header-secondary #user-menu-link {
+  padding: 13px 10px !important;
+}
+
+#header .aui-header-primary a:hover,
+#header .aui-header-secondary a:hover {
+  background-color: transparent !important;
+}
+
+#help-menu-link:after,
+#user-menu-link:after {
+  display: none;
+}
+
+#help-menu-link {
+  margin-top: -1px;
+  margin-right: 11px;
+}
+
+#user-menu-link .aui-avatar:before {
+  font-family: "Font Awesome 5 Free";
+  color: #828990;
+  font-size: 20px;
+  content: '\f007';
+  font-weight: 900;
+}
+
+#user-menu-link .aui-avatar img {
+  display: none;
+}
+
+#user-menu-link .aui-avatar {
+  margin: -3px 0 0 0;
+}
+
+#user-menu-link .aui-iconfont-help:before {
+  font-family: "Font Awesome 5 Free";
+  color: #828990;
+  font-size: 20px;
+  content: '\f059';
+  font-weight: 900;
+}
+
+#help-menu-link .aui-iconfont-help:before {
+  font-family: "Font Awesome 5 Free";
+  color: #828990;
+  font-size: 20px;
+  content: '\f059';
+}
+
+#notifications-anchor {
+  margin-right: 11px;
+  margin-top: -1px;
+}
+
+#notifications-anchor .aui-iconfont-workbox-empty:before {
+  font-family: "Font Awesome 5 Free";
+  color: #828990;
+  font-size: 20px;
+  content: '\f01c';
+  font-weight: 900;
+}
+
+#notifications-anchor .aui-iconfont-workbox:before {
+  font-family: "Font Awesome 5 Free";
+  color: #828990;
+  font-size: 20px;
+  content: '\f0e0';
+  font-weight: 900;
+}
+
+#notifications-anchor .badge {
+  background: #f36a22;
+  font-weight: normal !important;
+}
+
+#main {
+  margin-left: 260px !important;
+  /* spacing for sidebar */
+  margin-top: 58px !important;
+  /* remove floating bar */
+  padding: 0;
+  border: none !important;
+}
+
+#main #main-header-placeholder {
+  display: none !important;
+}
+
+#main #main-header {
+  width: 100% !important;
+  overflow: hidden;
+  font-family: "proxima-nova";
+  z-index: auto !important;
+  position: static !important;
+  margin-top: 0 !important;
+}
+
+#main #main-header.overlay-header {
+  border: none !important;
+}
+
+#main #main-header h1 {
+  width: 800px;
+  padding-top: 144px !important;
+  padding-bottom: 6px;
+  margin: 0 auto;
+  font-size: 64px;
+  line-height: 1.2;
+  color: #292f35;
+  font-family: "proxima-nova";
+  font-weight: 400;
+  display: block !important;
+  text-align: center;
+}
+
+#content {
+  width: 800px;
+  padding: 0 !important;
+  margin: 0 auto !important;
+  color: #3b434a;
+  font-family: "proxima-nova";
+  font-size: 18px;
+  font-weight: 300;
+  line-height: 1.5;
+}
+
+#main-content p,
+#main-content h1,
+#main-content h2,
+#main-content h3,
+#main-content h4,
+#main-content ol,
+#main-content ul,
+#main-content table,
+#main-content hr {
+  margin-top: 56px;
+}
+
+.confluenceTable,
+.table-wrap {
+  /*weird extra table padding fix*/
+  margin: 0;
+}
+
+#main-content h1+p,
+#main-content h2+p,
+#main-content h3+p,
+#main-content h1+ul,
+#main-content h2+ul,
+#main-content h3+ul,
+#main-content h1+ol,
+#main-content h2+ol,
+#main-content h3+ol,
+#main-content p+ol,
+#main-content p+ul,
+#main-content p+p,
+#main-content ol+ol,
+#main-content ol+ul,
+#main-content ol+p,
+#main-content ul+ol,
+#main-content ul+ul,
+#main-content ul+p {
+  margin-top: 24px;
+}
+
+#main-content li>ul,
+#main-content li>ol {
+  margin-top: 0;
+  margin-left: 18px;
+}
+
+#main-content h1,
+#main-content h2,
+#main-content h3,
+#main-content h4,
+#main-content h5 {
+  color: #292f35;
+  padding: 0;
+  font-weight: 400;
+}
+
+#main-content h1 {
+  font-size: 32px;
+  line-height: 1.2;
+}
+
+#main-content h2 {
+  font-size: 24px;
+}
+
+#main-content h3 {
+  font-size: 20px;
+  margin-top: 48px;
+}
+
+#main-content h4,
+#main-content h5 {
+  font-size: 16px;
+  font-weight: 600;
+}
+
+#main-content p,
+#main-content ol,
+#main-content ul {
+  padding: 0
+}
+
+#main-content ul {
+  list-style-type: none;
+}
+
+#main-content ul>li {
+  padding-left: 31px;
+}
+
+#main-content ul>li:before {
+  margin-left: -20px;
+  content: "\f111";
+  color: #828990;
+  font-family: "Font Awesome 5 Free";
+  font-weight: 900;
+  padding-top: 9px;
+  font-size: 5px;
+  position: absolute;
+}
+
+#main-content ol {
+  list-style-type: none;
+  counter-reset: li;
+  padding-left: 31px
+}
+
+#main-content ol>li:before {
+  counter-increment: li;
+  content: counter(li, decimal-leading-zero) '.';
+  color: #828990;
+  margin-right: 4px;
+  margin-left: -31px;
+  width: 24px;
+  float: left;
+  display: block;
+}
+
+#main-content .confluence-embedded-image {
+  width: 800px;
+  height: auto;
+  margin: 0 0;
+  padding: 0;
+}
+
+#comments-section {
+  display: none;
+}
+
+#likes-section {
+  display: none;
+}
+
+#footer {
+  display: none;
+}
+
+#footer #footer-logo {
+  background: none;
+  margin-bottom: 86px;
+}
+
+
+/* Navigation Menu */
+
+#navigation {
+  position: absolute;
+  right: 0;
+  width: 100%;
+  border-bottom: 1px solid #ebebeb;
+}
+
+#navigation .ajs-menu-bar {
+  margin: 0 32px 0 0;
+  padding: 0;
+  float: right;
+}
+
+#navigation .ajs-menu-item a,
+#navigation .ajs-button a {
+  font-size: 12px;
+  color: #616f7b;
+  line-height: 24px;
+  padding: 0 13px;
+  margin: 18px 0px;
+}
+
+#navigation .ajs-button>a>span {
+  padding: 0;
+}
+
+#navigation .ajs-button #watch-content-button .aui-icon,
+#navigation .ajs-button #page-favourite .aui-icon,
+#navigation .ajs-button #shareContentLink .aui-icon {
+  display: none;
+  border: none;
+}
+
+#navigation .ajs-button #mailPageLink span {
+  background: none;
+}
+
+#navigation .ajs-button a,
+#navigation .ajs-button a:hover,
+#navigation .ajs-menu-item a,
+#havigation .ajs-menu-item a:hover {
+  border: none;
+  background: none;
+}
+
+
+/* Breadcrumbs */
+
+#breadcrumb-section {
+  float: left;
+  overflow: hidden;
+  margin: 14px 0 0 48px;
+}
+
+#breadcrumb-section #breadcrumbs li a {
+  font-size: 12px;
+  color: #616f7b;
+  line-height: 24px;
+  padding: 0;
+  margin: 0;
+}
+
+.page-metadata {
+  margin-bottom: 96px;
+}
+
+.page-metadata .page-metadata-modification-info {
+  width: 100%;
+  text-align: center;
+}
+
+.page-metadata,
+.page-metadata a {
+  font-size: 12px;
+  line-height: 1.5;
+  color: #616f7b !important;
+  font-family: "proxima-nova";
+}
+
+.page-metadata .author,
+.page-metadata .last-modified {
+  text-decoration: underline;
+}
+
+#page-metadata-banner {
+  float: none;
+  margin: 0;
+}
+
+#page-metadata-banner ul.banner {
+  padding-top: 17px;
+}
+
+@font-face {
+  font-family: "proxima-nova";
+  src: url("https://wiki.kabaminc.com/download/attachments/46996780/proxima-nova-300.woff2?api=v2") format("woff2"),
+  url("https://wiki.kabaminc.com/download/attachments/46996780/proxima-nova-300.woff?api=v2") format("woff"),
+  url("https://wiki.kabaminc.com/download/attachments/46996780/proxima-nova-300.opt?api=v2") format("opentype");
+  font-style: normal;
+  font-weight: 300;
+}
+
+@font-face {
+  font-family: "proxima-nova";
+  src: url("https://wiki.kabaminc.com/download/attachments/46996780/proxima-nova-400.woff2?api=v2") format("woff2"),
+  url("https://wiki.kabaminc.com/download/attachments/46996780/proxima-nova-400.woff?api=v2") format("woff"),
+  url("https://wiki.kabaminc.com/download/attachments/46996780/proxima-nova-400.opt?api=v2") format("opentype");
+  font-style: normal;
+  font-weight: 400;
+}
+
+@font-face {
+  font-family: "proxima-nova";
+  src: url("https://wiki.kabaminc.com/download/attachments/46996780/proxima-nova-600.woff2?api=v2") format("woff2"),
+  url("https://wiki.kabaminc.com/download/attachments/46996780/proxima-nova-600.woff?api=v2") format("woff"),
+  url("https://wiki.kabaminc.com/download/attachments/46996780/proxima-nova-600.opt?api=v2") format("opentype");
+  font-style: normal;
+  font-weight: 600;
+}
+
+@font-face {
+  font-family: "Font Awesome 5 Free";
+  font-style: normal;
+  font-weight: 400;
+  font-display: auto;
+  src: url("https://wiki.kabaminc.com/download/attachments/46996780/fa-regular-400.eot");
+  src: url("https://wiki.kabaminc.com/download/attachments/46996780/fa-regular-400.eot?#iefix") format("embedded-opentype"),
+  url("https://wiki.kabaminc.com/download/attachments/46996780/fa-regular-400.woff2") format("woff2"),
+  url("https://wiki.kabaminc.com/download/attachments/46996780/fa-regular-400.woff") format("woff"),
+  url("https://wiki.kabaminc.com/download/attachments/46996780/fa-regular-400.ttf") format("truetype"),
+  url("https://wiki.kabaminc.com/download/attachments/46996780/fa-regular-400.svg#fontawesome") format("svg")
+}
+
+@font-face {
+  font-family: "Font Awesome 5 Free";
+  font-style: normal;
+  font-weight: 900;
+  font-display: auto;
+  src: url("https://wiki.kabaminc.com/download/attachments/46996780/fa-solid-900.eot");
+  src: url("https://wiki.kabaminc.com/download/attachments/46996780/fa-solid-900.eot?#iefix") format("embedded-opentype"),
+  url("https://wiki.kabaminc.com/download/attachments/46996780/fa-solid-900.woff2") format("woff2"),
+  url("https://wiki.kabaminc.com/download/attachments/46996780/fa-solid-900.woff") format("woff"),
+  url("https://wiki.kabaminc.com/download/attachments/46996780/fa-solid-900.ttf") format("truetype"),
+  url("https://wiki.kabaminc.com/download/attachments/46996780/fa-solid-900.svg#fontawesome") format("svg")
+}
+
+/* Editor Mode */
+
+body.create #toolbar,
+body.edit #toolbar {
+  position: fixed;
+  top: 56px;
+  width: 100%;
+  z-index: 50;
+}
+
+body.create #wysiwygTextarea_ifr,
+body.edit #wysiwygTextarea_ifr {
+  padding-top: 100px;
+}
+
+
+/* Attachments */
+
+#content.view-attachments {
+  width: 100%;
+}
+
+
+/* Administrator Mode */
+
+.spacetools.with-space-sidebar {
+  background: #FFFFFF;
+}
+
+.spacetools.with-space-sidebar #main #main-header h1 {
+  margin: 0;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+.spacetools.with-space-sidebar #main-header {
+  margin: 0 !important;
+  padding: 0 !important;
+}
+
+.spacetools.with-space-sidebar #content {
+  width: auto;
+}
+
+.spacetools.with-space-sidebar .aui-navgroup-horizontal {
+  margin: 0 !important;
+}
+
+.spacetools.with-space-sidebar #sidebar-help-tip {
+  top: 320px;
+}
+
+.spacetools.with-space-sidebar .dp-highlighter ol li {
+  line-height: 1.5;
+}
