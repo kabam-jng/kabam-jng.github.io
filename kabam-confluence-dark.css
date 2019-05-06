@@ -695,6 +695,10 @@ ul.acs-nav-list>li a .acs-nav-item-label {
   padding: 0;
 }
 
+#main-content p>iframe.youtube-player {
+  margin-left: 120px; /* terrible hack because I can't target parent component */
+}
+
 #comments-section {
   display: none;
 }
@@ -881,9 +885,11 @@ body.edit #wysiwygTextarea_ifr {
 .aui-buttons.rte-toolbar-group-justification,  /* text alignment */
 #rte-button-tasklist, /* task list */
 #color-picker-control, /* colour picker */
-.dropdown-item.format-h4, /* deep headings */
+.dropdown-item.format-h4, /* deep headings, quote and preformat */
 .dropdown-item.format-h5,
-.dropdown-item.format-h6 {
+.dropdown-item.format-h6,
+.dropdown-item.format-pre,
+.dropdown-item.format-blockquote {
   display: none !important;
 }
 
