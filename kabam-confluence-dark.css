@@ -326,7 +326,7 @@ ul.acs-nav-list>li a .acs-nav-item-label {
 /* Second level nav tree */
 
 .ia-fixed-sidebar ul.plugin_pagetree_children_list ul.plugin_pagetree_children_list ul.plugin_pagetree_children_list {
-  padding: 25px 0 6px 29px;
+  padding: 25px 0 16px 29px;
   background-color: #151c2f;
   margin-bottom: 18px
 }
@@ -336,9 +336,8 @@ ul.acs-nav-list>li a .acs-nav-item-label {
 
 .ia-fixed-sidebar ul.plugin_pagetree_children_list ul.plugin_pagetree_children_list ul.plugin_pagetree_children_list ul.plugin_pagetree_children_list {
   background-color: #0d111d;
-  padding: 18px 0 15px 0;
+  padding: 24px 0 8px 0;
   font-size: 14px;
-  margin-top: 12px;
 }
 
 
@@ -688,11 +687,27 @@ ul.acs-nav-list>li a .acs-nav-item-label {
   display: block;
 }
 
+#main-content ol>li>ol>li:before {
+  content: counter(li, upper-latin) '.';
+}
+#main-content ol>li>ol>li>ol>li:before {
+  content: counter(li, lower-roman) '.';
+}
+
+#main-content .confluence-embedded-file-wrapper {
+  width: 100%;
+  text-align: center;
+}
+
 #main-content .confluence-embedded-image {
-  width: 800px;
+  max-width: 800px;
   height: auto;
-  margin: 0 0;
+  margin: 0 auto;
   padding: 0;
+  /* Image breakout styling */
+  /* position: relative;
+  transform: translateX(-50%);
+  left: 50%;*/
 }
 
 #main-content p>iframe.youtube-player {
