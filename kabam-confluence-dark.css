@@ -678,6 +678,11 @@ ul.acs-nav-list>li a .acs-nav-item-label {
   padding-left: 31px;
 }
 
+#main-content ol>li>ul>li,
+#main-content ul>li>ul>li {
+  padding-left: 0;
+}
+
 #main-content ul>li:before {
   margin-left: -20px;
   content: "\f111";
