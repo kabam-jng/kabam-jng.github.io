@@ -326,7 +326,7 @@ ul.acs-nav-list>li a .acs-nav-item-label {
 /* Second level nav tree */
 
 .ia-fixed-sidebar ul.plugin_pagetree_children_list ul.plugin_pagetree_children_list ul.plugin_pagetree_children_list {
-  padding: 25px 0 16px 29px;
+  padding: 24px 0 8px 29px;
   background-color: #151c2f;
   margin-bottom: 18px
 }
@@ -589,23 +589,32 @@ ul.acs-nav-list>li a .acs-nav-item-label {
 }
 
 #main-content h1+p,
-#main-content h2+p,
-#main-content h3+p,
 #main-content h1+ul,
-#main-content h2+ul,
-#main-content h3+ul,
 #main-content h1+ol,
+#main-content h2+p,
+#main-content h2+ul,
 #main-content h2+ol,
+#main-content h3+p,
+#main-content h3+ul,
 #main-content h3+ol,
+#main-content h1+.expand-container,
+#main-content h2+.expand-container,
+#main-content h3+.expand-container,
 #main-content p+ol,
 #main-content p+ul,
 #main-content p+p,
+#main-content p+.expand-container,
 #main-content ol+ol,
 #main-content ol+ul,
 #main-content ol+p,
+#main-content ol+.expand-container,
 #main-content ul+ol,
 #main-content ul+ul,
-#main-content ul+p {
+#main-content ul+p,
+#main-content ul+.expand-container,
+#main-content .expand-container+p,
+#main-content .expand-container+ol,
+#main-content .expand-container+ul {
   margin-top: 24px;
 }
 
@@ -712,6 +721,80 @@ ul.acs-nav-list>li a .acs-nav-item-label {
 
 #main-content p>iframe.youtube-player {
   margin-left: 120px; /* terrible hack because I can't target parent component */
+}
+
+#main-content .expand-container {
+  border: 1px solid #ebebeb;
+  border-radius: 41px;
+  padding: 32px 36px;
+  margin-left: -36px;
+  margin-right: -36px;
+  margin-bottom: 16px;
+}
+
+#main-content .expand-container:hover {
+    box-shadow: 0 5px 7px 0 rgba(41, 47, 53, 0.06);
+}
+
+#main-content .expand-control {
+  display: flex;
+  align-items: center;
+  flex-flow: row-reverse;
+  margin: 0;
+  padding: 0;
+}
+
+#main-content .expand-control-icon {
+   width: 18px;
+   height: 30px !important;
+   background: transparent;
+   background-image: none;
+   margin-left: 16px;
+}
+
+#main-content .expand-control-icon::before {
+  font-family: "Font Awesome 5 Free";
+  content: '\f078';
+  font-size: 20px;
+  color: #f36a22;
+  font-weight: 900;
+}
+
+#main-content .expand-control-icon.expanded::before {
+  font-family: "Font Awesome 5 Free";
+  content: '\f00d';
+  font-size: 20px;
+  color: #f36a22;
+  font-weight: 900;
+}
+
+#main-content .expand-control-text {
+  flex-grow: 1;
+  font-size: 20px;
+  color: #f36a22;
+  padding: 0;
+  font-weight: 400;
+}
+
+#main-content .expand-control-text:hover {
+  text-decoration: none;
+}
+
+#main-content .expand-content {
+  margin: 0;
+  max-height: 10000px;
+  overflow-y: hidden;
+	transition-property: all;
+	transition-duration: 2.5s;
+	transition-timing-function: cubic-bezier(0, 1, 0.5, 1);
+}
+
+#main-content .expand-content.expand-hidden {
+  max-height: 0;
+}
+
+#main-content .expand-content > p:nth-child(1) {
+  margin-top: 32px;
 }
 
 #comments-section {
