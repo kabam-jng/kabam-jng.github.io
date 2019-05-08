@@ -620,7 +620,7 @@ ul.acs-nav-list>li a .acs-nav-item-label {
 
 #main-content li>ul,
 #main-content li>ol {
-  margin-top: 0;
+  margin-top: 16px;
   margin-left: 18px;
 }
 
@@ -658,6 +658,16 @@ ul.acs-nav-list>li a .acs-nav-item-label {
 #main-content ol,
 #main-content ul {
   padding: 0
+}
+
+#main-content ol>li,
+#main-content ul>li {
+  padding-top: 16px;
+}
+
+#main-content ol>li:nth-child(1),
+#main-content ul>li:nth-child(1) {
+  padding-top: 0;
 }
 
 #main-content ul {
@@ -771,7 +781,7 @@ ul.acs-nav-list>li a .acs-nav-item-label {
 #main-content .expand-control-text {
   flex-grow: 1;
   font-size: 20px;
-  color: #f36a22;
+  color: #292F35;
   padding: 0;
   font-weight: 400;
 }
