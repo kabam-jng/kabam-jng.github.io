@@ -713,6 +713,20 @@ ul.acs-nav-list>li a .acs-nav-item-label {
   content: counter(li, lower-roman) '.';
 }
 
+#main-content a {
+  text-decoration: none;
+  background-image: linear-gradient(currentColor, currentColor);
+  background-position: 0% 100%;
+  background-repeat: no-repeat;
+  background-size: 0% 2px;
+  transition: background-size .3s;
+  transition-timing-function: cubic-bezier(0, 1, 0.5, 1);
+}
+
+#main-content a:hover, #main-content a:focus {
+    background-size: 100% 2px;
+}
+
 #main-content .confluence-embedded-file-wrapper {
   width: 100%;
   text-align: center;
