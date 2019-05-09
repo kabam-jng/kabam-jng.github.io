@@ -560,8 +560,8 @@ ul.acs-nav-list>li a .acs-nav-item-label {
 }
 
 #content {
-  width: 800px;
-  padding: 0 !important;
+  width: 850px;
+  padding: 0 25px !important;
   margin: 0 auto !important;
   color: #3b434a;
   font-family: "proxima-nova";
