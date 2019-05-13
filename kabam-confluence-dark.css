@@ -670,12 +670,12 @@ ul.acs-nav-list>li a .acs-nav-item-label {
 
 #main-content ol>li,
 #main-content ul>li {
-  padding-top: 16px;
+  margin-top: 16px;
 }
 
 #main-content ol>li:nth-child(1),
 #main-content ul>li:nth-child(1) {
-  padding-top: 0;
+  margin-top: 0;
 }
 
 #main-content ul {
@@ -724,6 +724,50 @@ ul.acs-nav-list>li a .acs-nav-item-label {
 }
 #main-content ol>li>ol>li>ol>li:before {
   content: counter(li, lower-roman) '.';
+}
+
+/* Styles for check lists */
+
+#main-content ul.inline-task-list > li {
+  background-image: none;
+  padding-left: 27px;
+  margin-left: 0;
+  color: #3b434a;
+}
+
+/* No unchecked class. By default all li are unchecked  */
+#main-content ul.inline-task-list > li:before {
+  background-image: none;
+  margin-left: -26px;
+  content: "\f0c8";
+  color: #f36a22;
+  font-family: "Font Awesome 5 Free";
+  font-weight: 400;
+  padding-top: 0px;
+  font-size: 18px;
+  position: absolute;
+}
+
+#main-content ul.inline-task-list > li.checked {
+  color: #828990;
+}
+
+#main-content ul.inline-task-list > li.checked:before {
+  content: "\f14a";
+  font-weight: 900;
+}
+
+#main-content li>ul.inline-task-list {
+  margin-left: 13px;
+}
+
+
+/* hack to allow headings to appear in lists (frowned down upon)*/
+#main-content li > h1,
+#main-content li > h2,
+#main-content li > h3 {
+  margin: 0;
+  padding: 0;
 }
 
 #main-content a {
@@ -1018,7 +1062,6 @@ body.edit #wysiwygTextarea_ifr {
 /* Locking Down Editor Bar */
 #page-layout-2-group, /* layout options */
 .aui-buttons.rte-toolbar-group-justification,  /* text alignment */
-#rte-button-tasklist, /* task list */
 #color-picker-control, /* colour picker */
 .dropdown-item.format-h4, /* deep headings, quote and preformat */
 .dropdown-item.format-h5,
