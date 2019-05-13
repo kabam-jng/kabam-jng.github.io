@@ -147,6 +147,14 @@ body,
   font-weight: 300;
 }
 
+/* Override for side bar text colour */
+.acs-side-bar-content form.aui .radio>label,
+#acs-nav-list-main .acs-nav-item-label,
+#acs-nav-list-quick .acs-nav-item-label,
+.acs-nav-sections p, .acs-side-bar h5 {
+  color: #FFF;
+}
+
 .ia-fixed-sidebar a:hover,
 .ia-fixed-sidebar a:active {
   color: #828990;
