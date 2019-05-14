@@ -242,6 +242,11 @@ body,
   display: none !important;
 }
 
+.quick-links-wrapper .tip {
+  display: none !important;
+}
+
+
 ul.acs-nav-list>li {
   padding: 0 12px 16px 12px;
 }
