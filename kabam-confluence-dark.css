@@ -883,6 +883,14 @@ ul.acs-nav-list>li a .acs-nav-item-label {
   margin-top: 32px;
 }
 
+#main-content .search-macro ol {
+  margin-top: 0;
+}
+
+#main-content .search-macro ol li strong {
+  color: #f36a22;
+}
+
 #comments-section {
   display: none;
 }
