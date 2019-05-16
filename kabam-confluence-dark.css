@@ -869,7 +869,7 @@ ul.acs-nav-list>li a .acs-nav-item-label {
 #main-content .expand-content {
   margin: 0;
   max-height: 10000px;
-  overflow-y: hidden;
+  overflow: hidden;
 	transition-property: all;
 	transition-duration: 2.5s;
 	transition-timing-function: cubic-bezier(0, 1, 0.5, 1);
