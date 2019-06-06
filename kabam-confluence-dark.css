@@ -805,10 +805,6 @@ ul.acs-nav-list>li a .acs-nav-item-label {
   left: 50%;*/
 }
 
-#main-content p>iframe.youtube-player {
-  margin-left: 120px; /* terrible hack because I can't target parent component */
-}
-
 #main-content .expand-container {
   border: 1px solid #ebebeb;
   border-radius: 41px;
