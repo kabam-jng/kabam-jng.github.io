@@ -20,7 +20,7 @@ body,
 #header #logo {
   margin: 13px 0 0 33px;
   background-size: cover;
-  background-image: url('/download/attachments/46996780/kabam-primary-logo-cmyk-rev-horizontal.svg?api=v2')
+  background-image: url('/images/kabam-primary-logo-cmyk-rev-horizontal.svg?api=v2')
 }
 
 #header #logo a:hover {
@@ -1002,27 +1002,27 @@ ul.acs-nav-list>li a .acs-nav-item-label {
 
 @font-face {
   font-family: "proxima-nova";
-  src: url("/download/attachments/46996780/proxima-nova-300.woff2?api=v2") format("woff2"),
-  url("/download/attachments/46996780/proxima-nova-300.woff?api=v2") format("woff"),
-  url("/download/attachments/46996780/proxima-nova-300.opt?api=v2") format("opentype");
+  src: url("/fonts/proxima-nova-300.woff2?api=v2") format("woff2"),
+  url("/fonts/proxima-nova-300.woff?api=v2") format("woff"),
+  url("/fonts/proxima-nova-300.opt?api=v2") format("opentype");
   font-style: normal;
   font-weight: 300;
 }
 
 @font-face {
   font-family: "proxima-nova";
-  src: url("/download/attachments/46996780/proxima-nova-400.woff2?api=v2") format("woff2"),
-  url("/download/attachments/46996780/proxima-nova-400.woff?api=v2") format("woff"),
-  url("/download/attachments/46996780/proxima-nova-400.opt?api=v2") format("opentype");
+  src: url("/fonts/proxima-nova-400.woff2?api=v2") format("woff2"),
+  url("/fonts/proxima-nova-400.woff?api=v2") format("woff"),
+  url("/fonts/proxima-nova-400.opt?api=v2") format("opentype");
   font-style: normal;
   font-weight: 400;
 }
 
 @font-face {
   font-family: "proxima-nova";
-  src: url("/download/attachments/46996780/proxima-nova-600.woff2?api=v2") format("woff2"),
-  url("/download/attachments/46996780/proxima-nova-600.woff?api=v2") format("woff"),
-  url("/download/attachments/46996780/proxima-nova-600.opt?api=v2") format("opentype");
+  src: url("/fonts/proxima-nova-600.woff2?api=v2") format("woff2"),
+  url("/fonts/proxima-nova-600.woff?api=v2") format("woff"),
+  url("/fonts/proxima-nova-600.opt?api=v2") format("opentype");
   font-style: normal;
   font-weight: 600;
 }
@@ -1032,12 +1032,12 @@ ul.acs-nav-list>li a .acs-nav-item-label {
   font-style: normal;
   font-weight: 400;
   font-display: auto;
-  src: url("/download/attachments/46996780/fa-regular-400.eot");
-  src: url("/download/attachments/46996780/fa-regular-400.eot?#iefix") format("embedded-opentype"),
-  url("/download/attachments/46996780/fa-regular-400.woff2") format("woff2"),
-  url("/download/attachments/46996780/fa-regular-400.woff") format("woff"),
-  url("/download/attachments/46996780/fa-regular-400.ttf") format("truetype"),
-  url("/download/attachments/46996780/fa-regular-400.svg#fontawesome") format("svg")
+  src: url("/fonts/fa-regular-400.eot");
+  src: url("/fonts/fa-regular-400.eot?#iefix") format("embedded-opentype"),
+  url("/fonts/fa-regular-400.woff2") format("woff2"),
+  url("/fonts/fa-regular-400.woff") format("woff"),
+  url("/fonts/fa-regular-400.ttf") format("truetype"),
+  url("/fonts/fa-regular-400.svg#fontawesome") format("svg")
 }
 
 @font-face {
@@ -1045,12 +1045,12 @@ ul.acs-nav-list>li a .acs-nav-item-label {
   font-style: normal;
   font-weight: 900;
   font-display: auto;
-  src: url("/download/attachments/46996780/fa-solid-900.eot");
-  src: url("/download/attachments/46996780/fa-solid-900.eot?#iefix") format("embedded-opentype"),
-  url("/download/attachments/46996780/fa-solid-900.woff2") format("woff2"),
-  url("/download/attachments/46996780/fa-solid-900.woff") format("woff"),
-  url("/download/attachments/46996780/fa-solid-900.ttf") format("truetype"),
-  url("/download/attachments/46996780/fa-solid-900.svg#fontawesome") format("svg")
+  src: url("/fonts/fa-solid-900.eot");
+  src: url("/fonts/fa-solid-900.eot?#iefix") format("embedded-opentype"),
+  url("/fonts/fa-solid-900.woff2") format("woff2"),
+  url("/fonts/fa-solid-900.woff") format("woff"),
+  url("/fonts/fa-solid-900.ttf") format("truetype"),
+  url("/fonts/fa-solid-900.svg#fontawesome") format("svg")
 }
 
 /* Editor Mode */
