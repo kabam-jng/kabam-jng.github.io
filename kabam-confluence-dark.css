@@ -607,7 +607,7 @@ ul.acs-nav-list>li a .acs-nav-item-label {
 #main-content .table-wrap .content-wrapper h3:first-child,
 #main-content .table-wrap .content-wrapper ol:first-child,
 #main-content .table-wrap .content-wrapper ul:first-child {
-	margin-top: 0;
+margin-top: 0;
 }
 
 #main-content .table-wrap .tablesorter-header-inner p:first-child,  
@@ -616,7 +616,7 @@ ul.acs-nav-list>li a .acs-nav-item-label {
 #main-content .table-wrap .tablesorter-header-inner h3:first-child,  
 #main-content .table-wrap .tablesorter-header-inner ol:first-child,  
 #main-content .table-wrap .tablesorter-header-inner ul:first-child {  
-margin-top: 0;  
+margin-top: 0 !important;  
 }  
 
 #main-content h1+p,
