@@ -601,7 +601,12 @@ ul.acs-nav-list>li a .acs-nav-item-label {
   margin: 0;
 }
 
-#main-content .table-wrap .content-wrapper p:first-child {
+#main-content .table-wrap .content-wrapper p:first-child,
+#main-content .table-wrap .content-wrapper h1:first-child,
+#main-content .table-wrap .content-wrapper h2:first-child,
+#main-content .table-wrap .content-wrapper h3:first-child,
+#main-content .table-wrap .content-wrapper ol:first-child,
+#main-content .table-wrap .content-wrapper ul:first-child {
 	margin-top: 0;
 }
 
