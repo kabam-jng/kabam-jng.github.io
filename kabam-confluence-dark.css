@@ -610,6 +610,15 @@ ul.acs-nav-list>li a .acs-nav-item-label {
 	margin-top: 0;
 }
 
+#main-content .table-wrap .tablesorter-header-inner p:first-child,  
+#main-content .table-wrap .tablesorter-header-inner h1:first-child,  
+#main-content .table-wrap .tablesorter-header-inner h2:first-child,  
+#main-content .table-wrap .tablesorter-header-inner h3:first-child,  
+#main-content .table-wrap .tablesorter-header-inner ol:first-child,  
+#main-content .table-wrap .tablesorter-header-inner ul:first-child {  
+margin-top: 0;  
+}  
+
 #main-content h1+p,
 #main-content h1+ul,
 #main-content h1+ol,
