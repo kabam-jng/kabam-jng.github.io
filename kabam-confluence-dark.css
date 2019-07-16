@@ -601,6 +601,10 @@ ul.acs-nav-list>li a .acs-nav-item-label {
   margin: 0;
 }
 
+#main-content .table-wrap .content-wrapper p:first-child {
+	margin-top: 0;
+}
+
 #main-content h1+p,
 #main-content h1+ul,
 #main-content h1+ol,
