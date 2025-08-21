@@ -905,8 +905,11 @@ margin-top: 0 !important;
   color: #f36a22;
 }
 
+#main-content .confluence-information-macro-warning .confluence-information-macro-body p:first-child,
+#main-content .confluence-information-macro-note .confluence-information-macro-body p:first-child,
+#main-content .confluence-information-macro-information .confluence-information-macro-body p:first-child,
 #main-content .confluence-information-macro-tip .confluence-information-macro-body p:first-child {
-	margin-top: 0;	
+  margin-top: 0;	
 }
 
 #comments-section {
