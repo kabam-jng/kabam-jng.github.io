@@ -905,6 +905,7 @@ margin-top: 0 !important;
   color: #f36a22;
 }
 
+#main-content .conf-macro .panelContent table,
 #main-content .confluence-information-macro-warning .confluence-information-macro-body p:first-child,
 #main-content .confluence-information-macro-note .confluence-information-macro-body p:first-child,
 #main-content .confluence-information-macro-information .confluence-information-macro-body p:first-child,
